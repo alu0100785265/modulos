@@ -1,0 +1,29 @@
+{
+  "name": "clase",
+  "version": "1.0.1",
+  "description": "### Aceptar Tarea",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "gulp-shell": "^0.6.3",
+    "should": "^7.1.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alu0100785265/modulos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alu0100785265/modulos/issues"
+  },
+  "homepage": "https://github.com/alu0100785265/modulos#readme"
+}

@@ -1,0 +1,108 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/versions/node/v4.7.3/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/versions/node/v4.7.3/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@2.15.11
+3 info using node@v4.7.3
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/home/ubuntu/workspace/modulos',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /home/ubuntu/.npm/clase/1.0.0/package.tgz not in flight; packing
+9 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+10 verbose tar pack [ '/home/ubuntu/.npm/clase/1.0.0/package.tgz',
+10 verbose tar pack   '/home/ubuntu/workspace/modulos' ]
+11 verbose tarball /home/ubuntu/.npm/clase/1.0.0/package.tgz
+12 verbose folder /home/ubuntu/workspace/modulos
+13 info prepublish clase@1.0.0
+14 verbose addLocalTarball adding from inside cache /home/ubuntu/.npm/clase/1.0.0/package.tgz
+15 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+16 silly cache afterAdd clase@1.0.0
+17 verbose afterAdd /home/ubuntu/.npm/clase/1.0.0/package/package.json not in flight; writing
+18 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+19 verbose afterAdd /home/ubuntu/.npm/clase/1.0.0/package/package.json written
+20 silly publish { name: 'clase',
+20 silly publish   version: '1.0.0',
+20 silly publish   description: '### Aceptar Tarea',
+20 silly publish   main: 'index.js',
+20 silly publish   directories: { test: 'test' },
+20 silly publish   dependencies: { 'gulp-shell': '^0.6.3', should: '^7.1.1' },
+20 silly publish   devDependencies: { mocha: '^2.5.3' },
+20 silly publish   scripts: { test: 'mocha' },
+20 silly publish   repository:
+20 silly publish    { type: 'git',
+20 silly publish      url: 'git+https://github.com/alu0100785265/modulos.git' },
+20 silly publish   author: '',
+20 silly publish   license: 'ISC',
+20 silly publish   bugs: { url: 'https://github.com/alu0100785265/modulos/issues' },
+20 silly publish   homepage: 'https://github.com/alu0100785265/modulos#readme',
+20 silly publish   readme: '## Evaluar Strategy Pattern\n\n### Aceptar Tarea\n\n* [Aceptar asignación de la tarea]()\n\n### Forma de trabajo\n\n* Use su portátil o su cuenta en c9 para llevar a cabo los objetivos planteados.\n* Esta práctica se divide en objetivos o hitos:  indique al profesor  cuando ha terminado y suba los enlaces a los repos y despliegues.\n\n### Descripción del Código de la Práctica\n\n1. [Eliminate Javascript Code Smells by @elijahmanor](http://elijahmanor.com/talks/js-smells/)\n2. [Repo original de esta práctica](https://github.com/ULL-ESIT-DSI-1617/evalua-strategy-pattern)\n\n### Hitos\n\n1. Use el repo de GitHub dado por la asignación de esta tarea. \n2. Elimine el Switch Smell usando el Strategy Pattern\n3. Escriba las clases usando ECMA6\n4. Añada pruebas para cada una de las clases \n5. Añada integración continua usando Travis\n6. Añada a su `README.md` un badge Travis como este:\n[![Build Status](https://travis-ci.org/crguezl/mocha-chai-sinon--example.svg?branch=travis)](https://travis-ci.org/crguezl/mocha-chai-sinon--example)\nindicando el estado de las pruebas en Travis y enlazando a las mismas. \n7. Entrege los enlaces al repo en GitHub y a Travis\n\n\n### Recursos\n\n* [Apuntes: Code Smells](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/patterns/codesmell.html)\n* [Principios de Diseño](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/patterns/designprinciples.html)\n* [Patrones de Diseño](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/patterns/)\n* [ECMAScript 6 Power Tutorial: Class and Inheritance](https://code.tutsplus.com/tutorials/ecmascript-6-power-tutorial-class-and-inheritance--cms-24117)\n* [Object-Oriented JavaScript — A Deep Dive into ES6 Classes](https://www.sitepoint.com/object-oriented-javascript-deep-dive-es6-classes/)\n* [Strategy Pattern](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/patterns/strategypattern.html)\n* [Apuntes: Pruebas. Mocha](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/pruebas/mocha.html)\n* [Apuntes: Pruebas. Should](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/pruebas/mocha.html#shouldl)\n* [Apuntes: Integración Contínua. Travis](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/pruebas/travis.html)\n\n',
+20 silly publish   readmeFilename: 'README.1.md',
+20 silly publish   gitHead: '82635f07e80aadf671421eb3dd76ad6f34de73dc',
+20 silly publish   _id: 'clase@1.0.0',
+20 silly publish   _shasum: '6fe295a1fc2fc22d1e3dbabca9b2a3a53748cc36',
+20 silly publish   _from: '.' }
+21 verbose getPublishConfig undefined
+22 silly mapToRegistry name clase
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry https://registry.npmjs.org/
+25 silly mapToRegistry data Result {
+25 silly mapToRegistry   raw: 'clase',
+25 silly mapToRegistry   scope: null,
+25 silly mapToRegistry   name: 'clase',
+25 silly mapToRegistry   rawSpec: '',
+25 silly mapToRegistry   spec: 'latest',
+25 silly mapToRegistry   type: 'tag' }
+26 silly mapToRegistry uri https://registry.npmjs.org/clase
+27 verbose publish registryBase https://registry.npmjs.org/
+28 silly publish uploading /home/ubuntu/.npm/clase/1.0.0/package.tgz
+29 verbose request uri https://registry.npmjs.org/clase
+30 verbose request sending authorization for write operation
+31 info attempt registry request try #1 at 5:30:47 PM
+32 verbose request using bearer token for auth
+33 verbose request id 6eb814194ca4c525
+34 http request PUT https://registry.npmjs.org/clase
+35 http 403 https://registry.npmjs.org/clase
+36 verbose headers { 'content-type': 'application/json',
+36 verbose headers   'cache-control': 'max-age=300',
+36 verbose headers   'content-length': '99',
+36 verbose headers   'accept-ranges': 'bytes',
+36 verbose headers   date: 'Thu, 20 Apr 2017 17:30:48 GMT',
+36 verbose headers   via: '1.1 varnish',
+36 verbose headers   connection: 'keep-alive',
+36 verbose headers   'x-served-by': 'cache-lcy1142-LCY',
+36 verbose headers   'x-cache': 'MISS',
+36 verbose headers   'x-cache-hits': '0',
+36 verbose headers   'x-timer': 'S1492709448.041404,VS0,VE578',
+36 verbose headers   vary: 'Accept-Encoding' }
+37 verbose request invalidating /home/ubuntu/.npm/registry.npmjs.org/clase on PUT
+38 error publish Failed PUT 403
+39 verbose stack Error: you do not have permission to publish "clase". Are you logged in as the correct user? : clase
+39 verbose stack     at makeError (/home/ubuntu/.nvm/versions/node/v4.7.3/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+39 verbose stack     at CachingRegistryClient.<anonymous> (/home/ubuntu/.nvm/versions/node/v4.7.3/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+39 verbose stack     at Request._callback (/home/ubuntu/.nvm/versions/node/v4.7.3/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+39 verbose stack     at Request.self.callback (/home/ubuntu/.nvm/versions/node/v4.7.3/lib/node_modules/npm/node_modules/request/request.js:187:22)
+39 verbose stack     at emitTwo (events.js:87:13)
+39 verbose stack     at Request.emit (events.js:172:7)
+39 verbose stack     at Request.<anonymous> (/home/ubuntu/.nvm/versions/node/v4.7.3/lib/node_modules/npm/node_modules/request/request.js:1044:10)
+39 verbose stack     at emitOne (events.js:77:13)
+39 verbose stack     at Request.emit (events.js:169:7)
+39 verbose stack     at IncomingMessage.<anonymous> (/home/ubuntu/.nvm/versions/node/v4.7.3/lib/node_modules/npm/node_modules/request/request.js:965:12)
+40 verbose statusCode 403
+41 verbose pkgid clase
+42 verbose cwd /home/ubuntu/workspace/modulos
+43 error Linux 4.9.17-c9
+44 error argv "/home/ubuntu/.nvm/versions/node/v4.7.3/bin/node" "/home/ubuntu/.nvm/versions/node/v4.7.3/bin/npm" "publish"
+45 error node v4.7.3
+46 error npm  v2.15.11
+47 error code E403
+48 error you do not have permission to publish "clase". Are you logged in as the correct user? : clase
+49 error If you need help, you may report this error at:
+49 error     <https://github.com/npm/npm/issues>
+50 verbose exit [ 1, true ]
